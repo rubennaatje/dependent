@@ -32,4 +32,4 @@ jobs:
           body: Automatically update protos after release 
           branch: update-protos
           base: main
-          token: ${{ GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
